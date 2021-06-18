@@ -1,0 +1,19 @@
+{
+  "criteria": {
+      "c1": {
+          "trigger": "minecraft:thrown_item_picked_up_by_entity",
+          "conditions": {
+              "entity": {
+                  "type": "minecraft:player"
+              },
+              "item": {
+                  "items": ["minecraft:quartz"],
+                  "nbt": "{activated_magic_crystal: 1b}"
+              }
+          }
+      }
+  },
+  "rewards": {
+    "function": "rp:crystal.pick_up"
+  }
+}

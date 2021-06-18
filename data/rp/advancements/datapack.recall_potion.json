@@ -1,0 +1,18 @@
+{
+  "display": {
+      "title": [{"text":"Recall Potions"}, {"text":" "}, {"text":"v2", "color":"green"}],
+      "description": {"text":"Allows crafting of Recall Potions from Amethyst Shards.", "color":"gray"},
+      "icon": {
+          "item": "minecraft:potion",
+          "nbt": "{potion:\"minecraft:water\", CustomPotionColor:11767285, HideFlags: 1, Enchantments:[{id:\"binding_curse\", lvl: 1}]}"
+      },
+      "show_toast": true,
+      "announce_to_chat": false
+  },
+  "parent": "global:avexus",
+  "criteria": {
+      "trigger": {
+          "trigger": "minecraft:tick"
+      }
+  }
+}

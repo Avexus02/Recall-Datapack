@@ -1,0 +1,13 @@
+{
+  "criteria": {
+      "crafted": {
+          "trigger": "minecraft:recipe_unlocked",
+          "conditions": {
+              "recipe": "rp:recall_potion"
+          }
+      }
+  },
+  "rewards": {
+      "function": "rp:give/recall_potion"
+  }
+}

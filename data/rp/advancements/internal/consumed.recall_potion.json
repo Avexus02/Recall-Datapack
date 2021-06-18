@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "drank": {
+      "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": ["minecraft:potion"],
+            "nbt": "{recall_potion: 1b}"
+          }
+        }
+      }
+    },
+  "rewards": {
+      "function": "rp:recall"
+  }
+}

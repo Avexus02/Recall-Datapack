@@ -1,0 +1,18 @@
+{
+  "display": {
+      "title": {"text":"Home Sweet Home"},
+      "description": {"text":"Use a recall potion or magic crystal to return home."},
+      "icon": {
+          "item": "minecraft:potion",
+          "nbt": "{potion:\"minecraft:water\", CustomPotionColor:11767285, HideFlags: 1, Enchantments:[{id:\"binding_curse\", lvl: 1}]}"
+      },
+      "show_toast": true,
+      "announce_to_chat": true
+  },
+  "parent": "global:avexus",
+  "criteria": {
+      "trigger": {
+          "trigger": "minecraft:impossible"
+      }
+  }
+}
